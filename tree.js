@@ -3,11 +3,14 @@ const path = require("path");
 const ignore = ['node_modules'];
 
 const treePath = function(dir) {
-    const treeArr = [];
+    const treeArr = [{
+        name: path.basename(dir),
+        str: path.basename(dir)
+    }];
     
     const render = function(name,isLast,deep){
-        const line = deep.map(el=>`  ${el?'│':' '}`).join('');
-        const text = `${line}  ${isLast?'└─':'├─'} ${name}`;
+        const line = deep.map(el=>`${el?'│':' '}  `).join('');
+        const text = `${line}${isLast?'└─':'├─'} ${name}`;
         return {
             name: name,
             str: text
