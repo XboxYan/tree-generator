@@ -14,7 +14,6 @@
      ├─ common.js     
      ├─ home.js       
      └─ pages.js      //
-
 ```
 
 ## Features
@@ -23,10 +22,10 @@
 * 方便。只需右键点击生成即可复制到剪贴板上
 * 快速。原生实现，不依赖任何第三方，性能高
 
-> 已排除已`.`开头的文件或文件夹和`node_modules`文件夹
+> 已排除以`.`开头的文件或文件夹和`node_modules`文件夹
 
 ## ScreenShot
 
-![](https://imgservices-1252317822.image.myqcloud.com/image/20200716/jmimnkqq3d.gif)
+![ScreenShot](https://imgservices-1252317822.image.myqcloud.com/image/20200716/jmimnkqq3d.gif)
 
 **Enjoy!**
