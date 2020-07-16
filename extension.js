@@ -24,7 +24,7 @@ function gettree(dir){
 function activate(context) {
 
 	// Use the console to output diagnostic information (console.log) and errors (console.error)
-	// This line of code will only be executed once when your extension is activated
+	// This line of code will only be executed once when✔︎ your extension is activated
 	console.log('Congratulations, your extension "tree-generator" is now active!');
 
 	// The command has been defined in the package.json file
@@ -34,7 +34,7 @@ function activate(context) {
 		// The code you place here will be executed every time your command is executed
 		const str = gettree(uri.path);
 		vscode.env.clipboard.writeText(str);
-		vscode.window.showInformationMessage(`目录树已经复制到剪贴板上了~`);
+		vscode.window.showInformationMessage(`♥︎目录树已经复制到剪贴板上了~`);
 	});
 
 	context.subscriptions.push(disposable);
