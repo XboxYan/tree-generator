@@ -32,7 +32,7 @@ function activate(context) {
 	// The commandId parameter must match the command field in package.json
 	let disposable = vscode.commands.registerCommand('extension.generator', function (uri) {
 		// The code you place here will be executed every time your command is executed
-		const str = gettree(uri.path);
+		const str = gettree(uri.fsPath);
 		vscode.env.clipboard.writeText(str);
 		vscode.window.showInformationMessage(`♥︎目录树已经复制到剪贴板上了~`);
 	});
