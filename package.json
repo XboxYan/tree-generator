@@ -2,7 +2,7 @@
 	"name": "tree-generator",
 	"displayName": "tree-generator",
 	"description": "这是一个可以方便快速生成文件目录树的插件",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"engines": {
 		"vscode": "^1.10.0"
 	},
